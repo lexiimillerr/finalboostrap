@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Harrisonburg Foodie Finder" content="Here you will find a guide to some of Harrisonburg's best food spots including both local and chain restaurants!">
+    <meta name="author" content="Lexi Miller">
+    <title>Harrisonburg Foodie Finder</title>
+
+    <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- END LOADING BOOTSTRAP CSS -->
+
+    
+        <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet">
+    <!-- end of custom css -->
+
+    <!-- Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+
+
+
+  </head>
+
+  
+  <body id="page-top">
+    <!-- beginning of navigation -->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top"> <img src="egg1.png" alt="Website logo" width="50" height="50">
+                Harrisonburg Foodie Finder</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- The hrefs here must match the ID attribute of the corresponding divs/containers -->
+                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                      
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="breakfast.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Breakfast
+                            </a>
+                            <ul class="dropdown-menu">
+                               <li><a class="dropdown-item" href="breakfast.html">Coffee Spots</a></li>
+                              <li><a class="dropdown-item" href="localbreakfast">Local Places</a></li>
+                              <li><a class="dropdown-item" href="chainbreakfast">Chain Restaurants</a></li>
+                            </ul>
+                          </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="lunch.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Lunch
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="lunch.html">Local Places</a></li>
+                              <li><a class="dropdown-item" href="chainlunch">Chain Restaurants</a></li>
+                            </ul>
+                          </li>
+                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="dinner.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dinner
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="dinner.html">Drinks</a></li>
+                              <li><a class="dropdown-item" href="localdinner">Local Places</a></li>
+                              <li><a class="dropdown-item" href="chaindinner">Chain Restaurants</a></li>
+                            </ul>
+                          </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="desserts.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Desserts
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="desserts.html">Local Places</a></li>
+                              <li><a class="dropdown-item" href="chaindesserts">Chain Restaurants</a></li>
+                            </ul>
+                          </li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navigation -->
+    
+    <!--Header -->
+    
+      <header class="bg-primary bg-gradient text-white">
+            <div class="px-4 text-center" id="top"> 
+                <h1 class="fw-bolder" id="indexheader">Welcome to Harrisonburg Foodie Finder!</h1>
+            </div>
+      </header>
+
+      <!--Welcome section and photo carousel-->
+
+      <div class="row" id="carouselrow">
+        <div class="col-md-5" id="carouselpad">
+          <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="clementine.png" class="d-block w-100" alt="Overhead shot of some of Clementine's brekafast items.">
+                </div>
+                <div class="carousel-item">
+                  <img src="ridgeroom1.png" class="d-block w-100" alt="Medium-shot of Ridge Room's main dining area.">
+                </div>
+                <div class="carousel-item">
+                  <img src="vitos1.png" class="d-block w-100" alt="Close-up, focused pictures of Vito's fries sitting in a container.">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div> <!-- end of col-md-5 -->
+
+        <div class="col-md-6" id="welcomecolumn">
+          <h1 id="welcome"> Welcome! </h1>
+          <p class="lead" id="headertext"> Welcome to the Harrisonburg Foodie Finder Website! Our goal is to provide locals, students, and visitors with information about the city's best places to eat or grab a drink! Harrisonburg's amazing variety of locally-owned restaurants, breweries, and wineries will sure leave a lasting impression. Of course however, if you would like to go back to the basics, Harrisonburg also presents its fair share of chain restaurants to crush that classic craving. </p>
+          <p class="lead" id="headertext2">Click to button below so you never miss out on new events! </p>
+          <div class="headerbtnrow">
+             <a class="btn btn-index" href="https://www.tripadvisor.com/Restaurants-g57809-Harrisonburg_Virginia.html" target="blank" id="headertextbutton">Sign up</a> 
+          </div> <!-- end of header btn row -->
+        </div> <!-- end of col-md-6 -->
+
+      </div> <!--end of row-->
+
+
+      <div class="aboutus">
+        <div class="aboutsection">
+          <h1 id="abouttext"> About Us </h1>
+          <p class="lead"> The Harrisonburg Foodie Finder website started with the goal of connecting locals and visitors to some of Harriosnburg's best resaurants, breweries, coffee shops, dessert spots, etc.! Being located right off of Highway 81, a twenty-minute drive from the famous Massanutten resort, and serving students from James Madison University, the town of Harrisonburg is constantly growing and welcoming new businesses. </p>
+        </div> <!--- aboutsection div -->
+      </div> <!-- aboutus div -->
+
+      
+
+  <div class="row" id="modalrow">
+    <h1 id="toptext"> Image Gallery </h1>
+    <div class="col-md-4">
+        <img class="modalpic" src="bella.png" alt="Picture of one of Bella Luna's mixologists, Sean Allen." data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+    </div>
+
+    <div class="col-md-4">
+        <img class="modalpic" src="jackbrowns.png" alt="A disco ball hangs from a chandelier adorned with bras." data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+    </div>
+
+
+    <div class="col-md-4">
+       <img class="modalpic" src="vitos.png" alt="Friends clinking their glasses of wine together over a table of food."  data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+    </div>
+
+  
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="bella.png" class="img-fluid" alt="Picture of one of Bella Luna's mixologists, Sean Allen.">
+        <p class="modalcaption"> Bella Luna's lead mixologist Sean Allen doing what he does best.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <img src="jackbrowns.png" class="img-fluid" alt="A disco ball hangs from a chandelier adorned with bras.">
+        <p class="modalcaption"> Jack Brown's signature bra chandelier. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+           <img src="vitos.png" class="img-fluid" alt="Friends clinking their glasses of wine together over a table of food.">
+        <p class="modalcaption"> Customers at Vito's Italian Kitchen enjoying a glass of wine. </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="lead" id ="hovertextbottom"> Click on each image to learn more!</p>
+
+</div> <!-- closes entire row -->
+
+<!-- end of image modal -->
+
+  
+<footer class="py-3">
+  <div class="row" id="bottomnav">
+    <div class="col-2 m-4">
+      <a class="navbar-brand" href="index.html">
+        <img src="egg1.png" width="50" height="50" class="d-inline-block align-text-top" alt="Harrisonburg Foodie Finder Logo"> </a>
+
+    <ul class="nav flex-column">
+      <li class="nav-item mb-1">
+        <a href="index.html" class="nav-link p-0 text-white"> Home</a>
+      </li> 
+      <li class="nav-item mb-1">
+        <a href="breakfast.html" class="nav-link p-0 text-white"> Breakfast</a>
+      </li> 
+      <li class="nav-item mb-1">
+        <a href="lunch.html" class="nav-link p-0 text-white"> Lunch</a>
+      </li> 
+      <li class="nav-item mb-1">
+        <a href="dinner.html" class="nav-link p-0 text-white"> Dinner</a>
+      </li> 
+      <li class="nav-item mb-1">
+        <a href="desserts.html" class="nav-link p-0 text-white"> Desserts</a>
+      </li> 
+    </ul>
+  </div>
+
+  <div class="col-4 offset-5 py-4">
+    <div class="d-flex w-100 gap-2 py-4">
+      <ul class="list-unstyled d-flex">
+        <li class="icon">
+          <a class="link-light" href="https://www.instagram.com/" target="_blank">
+            <i class="bi bi-instagram"> </i>
+          </a>
+        </li>
+        <li class="icon">
+          <a class="link-light" href="https://www.facebook.com/HarrisonburgVA/" target="_blank">
+            <i class="bi bi-facebook"> </i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="d-flex w-100">
+      <p class="text-white"> Copyright &copy; Harrisonburg Foodie Finder | <a class="footerlink" href="#page-top"> Back to Top </a></p>
+    </div>
+  </div>
+
+  </div>
+</footer>
+
+
+
+
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>

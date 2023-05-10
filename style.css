@@ -1,0 +1,410 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+
+
+/* index page css*/
+
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+.py-5.bg-primary{
+	background-color: #0fa3b1 !important;
+}
+
+.navbar-brand {
+	font-weight: 400;
+}
+
+.navbar-brand.toplogo.img{
+	height: 30%;
+	width: 30%;
+} 
+
+#top {
+	background-image: url("headerback2.jpeg");
+	height: 400px;
+	padding-top: 75px;
+	background-repeat: no-repeat;
+}
+
+header {
+	margin-top: 52px;
+}
+
+#indexheader {
+	padding-top: 90px;
+}
+
+#toptext {
+	color: black;
+	text-align: center;
+	padding-bottom: 20px;
+	text-decoration: underline !important;
+}
+
+.nav-item-1 {
+	text-decoration: underline;
+	list-style-type: none;
+}
+
+.aboutus {
+	text-align: center;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+#abouttext {
+	text-decoration: underline;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.row {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+#carouselpad {
+	width: 500px;
+	height: 500px;
+}
+
+#carouselrow {
+	padding-left: 30px;
+	padding-bottom: 0px;
+}
+
+.col-md-5{
+	padding-left: 20px;
+}
+
+#welcome {
+	text-align: center;
+}
+
+img.modalpic {
+	width: 85%;
+	align-content: center;
+}
+
+#modalrow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center !important;
+	padding-top: 40px;
+	padding-left: 50px;
+}
+
+.modalcaption{
+	text-align: center;
+	padding-top: 10px;
+}
+
+#hovertextbottom {
+	padding-top: 30px;
+	padding-bottom: 0px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+.aboutus {
+	background-color: #d9e5d6;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.btn.btn-index {
+	background-color: #D9E5D6;
+	color: black;
+}
+
+#welcomecolumn {
+	margin-left: 60px;
+	margin-top: 30px;
+}
+
+.headerbtnrow {
+	text-align: center;
+}
+
+
+#welcome, #headertext, #headertext2 {
+	text-align: center;
+}
+
+/* end of index css*/
+
+/* breakfast css*/
+
+#coffeebottomrow, #cofeetoprow{
+	margin-left: 0px;
+	margin-right: 0px;
+	vertical-align: top;
+}
+
+#coffeetop {
+	text-align: center;
+}
+
+.welcomecoffee{
+	padding-top: 50px;
+	background-color: #d9e5d6;
+}
+
+#coffeeheader {
+	text-decoration: underline;
+}
+
+#coffee {
+	text-align: center;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+#chestnut {
+	padding-top: 5px;
+}
+
+#blacksheep {
+	margin-bottom: 0px;
+}
+
+#coffeetoptext1 {
+	padding-top: 15px;
+	padding-left:60px;
+	padding-right:60px;
+}
+
+.col-6.col-md-4, .col-6 {
+	padding-bottom: 20px;
+}
+
+/* end of breakfast css */
+
+/* lunch css*/
+
+#magpie, #rocktown, #jackbrownsbeer, #littlegrill, #clementine {
+	text-align: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 10px;
+}
+
+#topfive {
+	padding-top: 15px;
+}
+
+#clementine {
+	padding-bottom: 40px;
+	margin: 0px;
+}
+
+#magpie{
+	margin: 0px;
+}
+
+#clementineimg, #littleimg, #jackimg, #rockimg, #magimg {
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 75%;
+}
+
+.welcomelunch {
+	text-align: center;
+	padding: 40px;
+	background-color: #d9e5d6;
+	color: black;
+}
+
+#lunchheader {
+	text-decoration: underline;
+	padding-top: 15px;
+}
+
+#bottomlunch{
+	margin-bottom: 0px;
+}
+
+.text-center#topfive {
+	overflow: auto;
+	margin-top: 0px;
+}
+
+
+#magpietext, #rocktowntext, #jacktext, #littletext, #clementinetext {
+	padding-top: 90px;
+}
+
+.lunchtext {
+	color: #0fa3b1;
+	text-decoration: underline;
+}
+
+#lunchfirsttext {
+	padding-top:15px;
+
+}
+
+/* end of lunch css */
+
+
+/* dinner css */
+
+.crosskeys:hover,.whiteoak:hover,.bluestone:hover,.rubys:hover,.billyjacks:hover,.magnolias:hover,.threenotchd:hover,.brotherscraft:hover,.palefire:hover {
+	opacity: 0.2;
+
+}
+
+h5 {
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.drinkheader {
+	padding-bottom: 15px;
+	text-decoration: underline;
+}
+
+
+#drink1, #drink2, #drink3 {
+	align-content: center;
+}
+
+#barrow, #breweryrow {
+	padding-bottom: 0px;
+}
+
+#column1, #column2, #column3, #column4, #column5, #column6, #column7, #column8, #column9{
+	padding-bottom: 0px;
+}
+
+.dinnerbody { 
+	background-color: #D9E5D6;
+ }
+
+#drink1 {
+	padding-top: 60px;
+}
+
+.smallheader {
+	font-size: small;
+	padding-bottom: 15px;
+}
+
+ /* end of dinner css*/
+
+ /* dessert css*/
+
+#dessertcontainer, #dessertcontainer2 {
+	margin: 10px;
+}
+
+#dessertcontainer2 {
+	padding-bottom: 20px;
+}
+
+.welcomedessert {
+	padding-top: 50px;
+	text-align: center;
+	background-color: #d9e5d6;
+	color: black;
+}
+
+#dessertheader {
+	text-decoration: underline;
+}
+
+#dessertbottom {
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.dessertbutton{
+	padding-bottom: 7px;
+}
+
+#firstrow, #secondrow {
+	padding-bottom: 30px;	
+}
+
+.btn {
+	background-color: #0fa3b1;
+	color: white;
+}
+
+/* end dessert css */
+
+/* footer css */
+
+footer.py-3 {
+	background-color: #0fa3b1;
+}
+
+.icon {
+	font-size: 2em;
+	padding: 5px;
+}
+
+.nav.flex-column {
+	padding-top: 10px;
+}
+
+#bottomnav{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.d-flex.w-100.gap-2.py-4{
+	
+	padding: 0px;
+	
+	margin-bottom: 0px;
+}
+
+.list-unstyled.d-flex {
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.d-flex.w-100{
+	text-align: center;
+}
+
+
+.link-light{
+	height:40px;
+	width:40px;
+}
+/* end footer css */
+
+
+/* footer link styling */
+
+a:link.footerlink {
+	color: white;
+	text-decoration: none;
+
+}
+
+a:visited.footerlink{
+	color: #eddea4;
+	text-decoration: none;
+}
+
+a:hover.footerlink {
+	color: #d9e5d6;
+	text-decoration: underline;
+}
+
+a:active.footerlink{
+	color: #ff9b42;
+	text-decoration: none;
+}
+
+/* end footer link styling */
+
